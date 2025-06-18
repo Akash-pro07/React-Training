@@ -47,11 +47,54 @@ p{
 } 
   }
 
-.kelt {
-    color: red;
-}
 
 .carousel-item {
     height: 600px;
     display: inline;  
+}
+.my-link {
+    color: white;
+    text-decoration: none;
+}
+.my-link:hover {
+    color: #1a4568;
+}
+
+.admission {
+    text-align: center;
+    margin: 100px;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.admission-link {
+    color: red;
+    text-decoration: none;
+    animation: blinker 1s step-end infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.clg {
+    color: darkred;
+}
+
+.text-card {
+    font-style: normal;
+    font-size: larger;
+} 
+
+.head-title {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.date-card {
+    border-width: 1px;
+    border-color: darkred;
+    border-radius: 5px;
 }
