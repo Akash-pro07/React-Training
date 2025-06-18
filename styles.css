@@ -94,7 +94,7 @@ p{
 }
 
 .date-card {
-    border-width: 1px;
-    border-color: darkred;
+    border: 1px darkred solid;
+    margin-right: 230px;
     border-radius: 5px;
 }
